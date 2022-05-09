@@ -9,8 +9,9 @@
         PMD Ruleset for CID/CD Demo
     </description>
 
-    <rule ref="rulesets/java/quickstart.xml">
+    <rule ref="category/java/bestpractices.xml">
         <exclude name="UnusedImports"/>
         <exclude name="UseUtilityClass" />
+        <exclude name="JUnitAssertionsShouldIncludeMessage" />
     </rule>
 </ruleset>
